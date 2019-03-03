@@ -1,23 +1,42 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: Woosuk Lee (이우석)
+description: Assistant professor, <a href="http://psl.hanyang.ac.kr">Programming Systems Lab.</a>, <a href="http://sw.hanyang.ac.kr">College of Computing</a>, <a href="http://www.hanyang.ac.kr/web/eng">Hanyang University</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
 news: true
 social: true
 ---
+### Research Interests
+My research interest spans all aspects of programming systems with the goal of improving software quality and programmer productivity. In particular,
+* Sound, Scalable, Precise & User-friendly Static Analysis
+* Scalable Program Synthesis
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+For more information about my research, please see [publications](publications), talks, and projects.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### Vita
+* Sep. 2018 - current, Assistant Professor, <a href="http://www.hanyang.ac.kr/web/eng">Hanyang University</a>
+* Jan. 2017 - Aug. 2018, Postdoctoral Fellow, University of Pennsylvania (advisor: <a href="http://cis.upenn.edu/~mhnaik">Prof. Mayur Naik</a>).
+* Mar. 2016 - Jan. 2017, Postdoctoral Fellow, Georgia Institute of Technology (advisor: <a href="http://cis.upenn.edu/~mhnaik">Prof. Mayur Naik</a>)
+* Mar. 2009 - Feb. 2016, Ph.D. <a href="ropas.snu.ac.kr">Programming Research Laboratory</a>,  <a href="http://en.snu.ac.kr">Seoul National University</a> (advisor: <a href="http://ropas.snu.ac.kr/~kwang">Prof. Kwangkeun Yi</a>)
+* Feb. 2009, B.S. <a href="cse.snu.ac.kr/english/index.asp">School of Computer Science and Engineering</a>, Seoul National University
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+### Professional Activities
+#### Program Committee 
+* PLDI 2019: 40th ACM SIGPLAN Conference on Programming Language Design and Implementation
+* ESOP 2020: European Symposium on Programming
+
+#### Reviewer 
+* IEEE Transactions on Software Engineering
+* ACM Transactions on Programming Languages and Systems
+
+#### Vulnerabilities Reported
+* <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8106">CVE-2015-8106</a> (Latex2rtf format string vulnerability)
+* <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-8107">CVE-2015-8106</a> (a2ps format string vulnerability)
+
+### Contact
+* Email: woosuk at hanyang.ac.kr
+* Address: Rm 403, 3rd Engineering Building, Hanyangdaehak-ro 55, Ansan-si, Gyeonggi-do 15588

@@ -8,13 +8,13 @@ layout: default
     <h5 class="post-description">{{ page.description }}</h5>
   </header>
 
-  <article class="post-content {{page.title}} clearfix">
-    {{ content }}
-  </article>
-
   {% if page.news %}
     {% include news.html %}
   {% endif %}
+
+  <article class="post-content {{page.title}} clearfix">
+    {{ content }}
+  </article>
 
   {% if page.social %}
     {% include social.html %}

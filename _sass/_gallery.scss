@@ -11,8 +11,11 @@ figcaption {
     background: $theme-color;
 }
 .img_row {
-    /*height: $img-height;*/
+	max-width:100%;
+	max-height:100%;
+    height: $img-height;
     width: 100%;
+	object-fit: contain;
     overflow: hidden;
     box-sizing:border-box;
 }
@@ -31,6 +34,9 @@ figcaption {
 }
 .three {
     width: 100%;
+}
+.half {
+    width: 50%;
 }
 .caption {
     height: 100%;

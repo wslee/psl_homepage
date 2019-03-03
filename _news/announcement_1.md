@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+I am looking for motivated graduate/undergraduate students and postdocs to work with. Please see our [research projects](projects)
