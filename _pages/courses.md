@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /courses/
+title: courses
 ---
 
 SPRING 2019
-* ENE4014 Programming Languages
-* CSE6049 Program Analysis
+* [ENE4014 Programming Languages](ene4014)
+* [CSE6049 Program Analysis](cse6049)
 
 FALL 2018
 * [CSE2016 Programming Methodology](https://cse2016hy.github.io)
