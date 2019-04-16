@@ -1,0 +1,295 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% letter paper
+\documentclass[10pt, letterpaper]{article}
+% a4 paper
+%\documentclass[10pt, a4paper]{article}
+\usepackage[no-math]{fontspec} 
+\usepackage{MnSymbol}
+\usepackage{marvosym}
+\usepackage{color} 
+\usepackage{enumerate} 
+\usepackage{ifsym}
+\usepackage{marvosym}
+% \usepackage{bbding}
+\input{dvipsnam.def}
+
+%\renewcommand{\labelitemi}{$\diamond$}
+%\renewcommand{\labelitemi}{$\ast$}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+%\renewcommand{\labelitemi}{$\vardiamondsuit$}
+\renewcommand{\labelitemi}{$\blacktriangleright$}
+\newcommand{\kwang}{Prof. Kwangkeun Yi}
+\def\sparrow{{\sc Sparrow}}
+\def\alps{{\sc Alps}}
+\def\euphony{{\sc Euphony}}
+\newcommand{\interval}[2]
+{#1 -- \makebox[1.5cm]{\hfill#2}}
+
+\newcommand{\tr}[1]{\textcolor{red}{#1}}
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont[Ligatures={Common}
+,Numbers={OldStyle}
+]{Times}
+\setmonofont[Scale=0.8]{Monaco} 
+\setsansfont[Scale=0.9]{Optima Regular} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Adobe Caslon Pro}\selectfont\itshape\&}}
+% ---- MARGIN YEARS
+\newcommand{\years}[1]{\marginpar{\scriptsize #1}}
+
+
+
+% Take out "References"
+\renewcommand\refname{}
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries\Large} 
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+
+\newcommand{\mysection}[1]{
+  \vspace{25pt}\noindent{\rmfamily\mdseries \Large #1}\\
+  % \rule[5pt]{\textwidth}{0.1pt}\\
+  \vspace{-6pt}\hrule\vspace{3pt}
+}
+
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[bookmarks, colorlinks, breaklinks,
+pdftitle={Kihong Heo - vita},pdfauthor={Kihong Heo}]{hyperref}  
+\hypersetup{
+  linkcolor=[named]{WildStrawberry},
+  citecolor=magenta,
+  filecolor=magenta,
+  urlcolor=[named]{WildStrawberry}
+  ,colorlinks=false
+  ,pdfborder={0 0 0}
+}
+
+{\setlength{\leftmargini}{15pt} 
+
+% DOCUMENT
+\begin{document}
+\renewcommand{\refname}{}
+% \renewcommand{\refname}{Publications}
+\reversemarginpar
+{\huge Woosuk Lee} \\[0.4cm]
+Assistant Professor\\
+College of Computing\\
+Hanyang University \\
+Rm 403, 3rd Engineering Building \\
+Hanyangdaehak-ro 55, Ansan-si, Gyeonggi-do 15588, Korea 
+
+%\hspace{0.5pt}
+\begin{tabular*}{0.75\textwidth}{p{0.05cm}lp{0.05cm}p{0.1cm}l}
+\Letter & : {\small \href{mailto:woosuk@hanyang.ac.kr}{woosuk@hanyang.ac.kr}} & &\Mundus & : {\small \url{http://psl.hanyang.ac.kr}}
+%\Telefon  & : \texttt{+82.2.880.1865} & & \Letter & : {\small \url{kheo@cis.upenn.edu}} \\
+%\Mobilefone    & : \texttt{+1.267.250.3257} &  & \Mundus & : {\small \url{http://www.cis.upenn.edu/~kheo}}
+\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mysection{Education}
+\textbf{Computer Science and Engineering, Seoul National University}\hfill \interval{Mar 2009}{Feb 2016} \\
+Doctor of Philosophy in Computer Science and Engineering \\
+Thesis: Improving the Usability of Static Analyzers \cite{myphdthesis} \\
+Advisor: \kwang \\
+
+\textbf{Computer Science and Engineering, Seoul National University} \hfill \interval{Mar 2005}{Feb 2009}\\
+Bachelor of Science in Computer Science
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mysection{Research Interests} 
+My research interest spans all aspects of programming systems with the goal of
+improving software quality and programmer productivity.
+In particular, 
+\begin{itemize}
+	\item Sound, Scalable, \& User-friendly Static Analysis \cite{myphdthesis,Kulkarni2018BeyondDM,Lee:2017:SNC:3133234.3095021,10.1007/978-3-642-27940-9_20,10.1007/978-3-662-48288-9_2,10.1007/978-3-319-10936-7_12,Oh:2012:DIS:2254064.2254092,Oh:2014:GSA:2669618.2590811}
+	\item Scalable Automated Program Generation \cite{Heo:2018:EPD:3243734.3243838,Si:2018:SSD:3236024.3236034,Lee:2018:ASP:3192366.3192410}
+	\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\mysection{Current Position}
+%\textbf{Computer Science and Engineering, Seoul National University}\\
+%Ph.d. Candidate\\
+%Director: \kwang
+
+\mysection{Experience}
+\textbf{Hanyang University}\hfill \interval{Sep 2018}{present} \\
+Assistant Professor\\
+
+\textbf{University of Pennsylvania}\hfill \interval{Jan 2017}{Aug 2018} \\
+Post-doctoral Researcher\\
+Advisor: Prof. Mayur Naik\\
+
+\textbf{Georgia Institute of Technology}\hfill \interval{Mar 2016}{Jan 2017} \\
+Post-doctoral Researcher\\
+Advisor: Prof. Mayur Naik\\
+
+\textbf{University of California, Berkeley}\hfill \interval{Jul 2012}{Nov 2012} \\
+Visiting Student\\
+Advisor: Prof. Dawn Song   \\
+
+\textbf{Fasoo.com}\hfill \interval{Jul 2010}{Aug 2010} \\
+Intern\\
+Advisor: Dr. Kyujin Cho   \\
+
+
+\mysection{Publications}
+Author names annotated * indicate co-first authorship for papers where multiple authors made equally significant contributions.
+\bibliographystyle{plain}	
+\bibliography{../../_bibliography/papers}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \mysection{Publications}
+%\bibliographystyle{unsrt}	% (uses file "plain.bst")
+%\bibliography{refs}		% expects file "myrefs.bib"
+%\nocite{Heo:2017ux}
+%\nocite{Heo:2016kc}
+%\nocite{Ko:2014ef}
+%\nocite{Oh:2012tu}
+%%
+%%
+% \begin{enumerate}
+% \item
+% Adapting Static Analysis via Learning with Bayesian Optimization\\
+% \textbf{Kihong Heo}, Hakjoo Oh, Hongseok Yang and Kwangkeun Yi\\
+% \textbf{TOPLAS}: \textit{ACM Transactions on Programming Languages and Systems}, 2017 (to appear)
+% \item 
+% Learning a Variable-Clustering Strategy for Octagon from Labeled Data Generated by a Static Analysis\\
+% \textbf{Kihong Heo}, Hakjoo Oh, and Hongseok Yang\\
+% \textbf{SAS 2016}: \textit{The 23rd International Static Analysis Symposium}, 2016
+% \end{enumerate}
+
+\mysection{Software}
+I have contributed as a main developer to the following open-source software:
+\begin{itemize}
+	\item Sparrow: a static analyzer for C program\\
+		\url{http://www.github.com/ropas/sparrow}
+        \item Euphony: a probabilistic model-guided program synthesizer \\ 
+                \url{https://github.com/wslee/euphony}
+	\item Chisel: A System for Debloating C/C++ Programs \\
+		\url{https://chisel.cis.upenn.edu}
+\end{itemize}
+
+\mysection{Patents}
+\begin{itemize}
+\item Copyright information inserting system and method (Registration No. (date): 1010971040000 (12/15/2011))
+\item Electronic apparatus for determining whether program comprises malicious code and method for controlloing thereof (Application No. (date): 10-2015-0055481 (04/20/2015))
+\end{itemize}
+
+\mysection{Academic Activities}
+Program Committee (PC) members
+\begin{itemize}
+\item ESOP 2020: European Symposium on Programming
+\item PLDI 2019: 40th ACM SIGPLAN Conference on Programming Language Design and Implementation
+\end{itemize}
+Reveiwer
+\begin{itemize}
+\item IEEE Transactions on Software Engineering
+\item ACM Transactions on Programming Languages and Systems
+\end{itemize}
+
+% \mysection{Talks}
+% \begin{itemize}
+% 	\item Structure-guided Synthesis.\\
+% 		Weekly Group Seminar. University of Pennsylvania. 19 April 2017. 
+% 	\item Interactive Synthesis of Logic Programs.\\
+% 		Invited talk. Korea University. 9 February 2017. 
+% 	\item Static analysis with set-closure in secrecy.\\
+% 		Paper presentation. In 22nd International Static Analysis Symposium (SAS 2015). Saint-Malo. 9-11 September 2015. \\ \url{http://ropas.snu.ac.kr/~wslee/sas15_talk.pdf}
+% 	\item A Progress Bar for Static Analyzers.\\
+% 		Paper presentation. In 21st International Static Analysis Symposium (SAS 2014). Munich. 11-13 September 2014. \\ \url{http://ropas.snu.ac.kr/~wslee/sas14_talk.pdf}
+% 	\item Sound Non-Statistical Clustering of Static Analysis Alarms. \\
+% 		Paper presentation. In 13th International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI 2012). Philadelphia. 25-27 January 2012. \\ \url{http://ropas.snu.ac.kr/~wslee/vmcai12_talk.pdf}
+% \end{itemize}
+
+% \mysection{Vulnerabilities Reported}
+% \begin{itemize}
+% \item CVE-2015-8106 (latex2rtf format string vulnerability)
+% \item CVE-2015-8107 (a2ps format string vulnerability)
+% \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\mysection{Awards}
+%\begin{itemize}
+%\item 
+%\textbf{Samsung Human Tech Paper - Bronze Prize} \hfill 2008\\
+%Samsung Electronics  
+%\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\mysection{References}
+\hspace{-0.25cm}
+\begin{tabular}{ll}
+	\begin{minipage}[t]{0.5\textwidth}
+	\textbf{Kwangkeun Yi}\\
+	Professor\\
+	Dept. of Computer Science and Engineering\\
+	Seoul National University\\
+	Email: {\small \url{kwang@ropas.snu.ac.kr}}\\
+	\end{minipage}
+	&
+	\begin{minipage}[t]{0.5\textwidth}
+ 	\textbf{Mayur Naik}\\
+	 Associate Professor\\
+	 Dept. of Computer and Information Science \\
+	University of Pennsylvania\\
+	 Email: {\small \url{mhnaik@cis.upenn.edu}}\\
+	 \end{minipage}
+ 	\\
+  \begin{minipage}[t]{0.5\textwidth}
+    \textbf{Rajeev Alur}\\
+    Professor\\
+    Dept. of Computer and Information Science \\
+    University of Pennsylvania\\
+    Email: {\small \url{alur@cis.upenn.edu}}\\
+  \end{minipage}
+
+&
+	\begin{minipage}[t]{0.5\textwidth}
+ 	\textbf{Jung Hee Cheon}\\
+	 Professor\\
+	 Department of Mathematics\\
+	 Seoul National University\\
+	 Email: {\small \url{jhcheon@snu.ac.kr}}\\
+	 \end{minipage} 
+	 \\
+\begin{minipage}[t]{0.5\textwidth}
+  \textbf{Hakjoo Oh}\\
+  Assitant Professor\\
+  Dept. of Computer Science and Engineering\\
+  Korea University\\
+  Email: {\small \url{hakjoo_oh@korea.ac.kr}}\\
+\end{minipage} 
+& \\
+\end{tabular}
+%
+%\vfill
+%\hrulefill
+%
+%% FILL IN THE FULL URL TO YOUR CV
+\begin{center}
+{\footnotesize 
+  Last updated: \today \\
+  \url{http://psl.hanyang.ac.kr}
+}
+\end{center}
+\end{document}
+
