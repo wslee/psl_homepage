@@ -3,6 +3,8 @@ layout: page
 permalink: /courses/
 title: courses
 ---
+FALL 2019
+* [CSE2016 Programming Methodology](cse2016)
 
 SPRING 2019
 * [ENE4014 Programming Languages](ene4014)
