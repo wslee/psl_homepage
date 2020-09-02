@@ -24,10 +24,23 @@ For more information about my research, please see [publications](publications),
 * Mar. 2009 - Feb. 2016, Ph.D. <a href="ropas.snu.ac.kr">Programming Research Laboratory</a>,  <a href="http://en.snu.ac.kr">Seoul National University</a> (advisor: <a href="http://ropas.snu.ac.kr/~kwang">Prof. Kwangkeun Yi</a>)
 * Feb. 2009, B.S. <a href="cse.snu.ac.kr/english/index.asp">School of Computer Science and Engineering</a>, Seoul National University
 
+### People
+#### PhD Students 
+* <a href="http://ropas.snu.ac.kr/~dklee">DongKwon Lee</a> (co-advised with <a href="http://ropas.snu.ac.kr/~kwang">Kwangkeun Yi</a>)
+* Mojgan Kohestani
+* Jehyung Lee
+* Hangyeol Jo
+
+#### Undergraduate Students
+* Jeongmin Jo 
+
+
 ### Professional Activities
 #### Program Committee 
-* PLDI 2019: 40th ACM SIGPLAN Conference on Programming Language Design and Implementation
+* PLDI 2021: 42th ACM SIGPLAN Conference on Programming Language Design and Implementation
+* ICSE 2020 (Software Engineering in Practice track): 42nd International Conference on Software Engineering
 * ESOP 2020: European Symposium on Programming
+* PLDI 2019: 40th ACM SIGPLAN Conference on Programming Language Design and Implementation
 
 #### Reviewer 
 * IEEE Transactions on Software Engineering

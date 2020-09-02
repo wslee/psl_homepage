@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Author names annotated * indicate co-first authorship for papers where multiple authors made equally significant contributions.  
-years: [2018, 2017, 2016, 2015, 2014, 2012]
+years: [2020, 2018, 2017, 2016, 2015, 2014, 2012]
 ---
 
 {% for y in page.years %}

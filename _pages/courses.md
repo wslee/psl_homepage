@@ -3,12 +3,16 @@ layout: page
 permalink: /courses/
 title: courses
 ---
+SPRING 2020
+* [ENE4014 Programming Languages](ene4014_2020s)
+* [CSE2016 Programming Methodology](cse2016_2020s)
+
 FALL 2019
-* [CSE2016 Programming Methodology](cse2016)
+* [CSE2016 Programming Methodology](cse2016_2019f)
 
 SPRING 2019
-* [ENE4014 Programming Languages](ene4014)
-* [CSE6049 Program Analysis](cse6049)
+* [ENE4014 Programming Languages](ene4014_2019s)
+* [CSE6049 Program Analysis](cse6049_2019s)
 
 FALL 2018
 * [CSE2016 Programming Methodology](https://cse2016hy.github.io)
