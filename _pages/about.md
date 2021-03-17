@@ -31,9 +31,6 @@ For more information about my research, please see [publications](publications),
 * Jehyung Lee
 * Hangyeol Jo
 
-#### Undergraduate Students
-* Jeongmin Jo 
-
 
 ### Professional Activities
 #### Program Committee 
