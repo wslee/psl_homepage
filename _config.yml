@@ -66,6 +66,9 @@ collections:
   courses:
     output: true
     permalink: /courses/:path/
+  courses:
+    output: true
+    permalink: /talks/:path/
 news_limit: 5
 
 # -----------------------------------------------------------------------------
